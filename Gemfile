@@ -4,6 +4,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 gem 'rails-controller-testing'
 ruby '2.6.10'
 gem 'bootstrap-sass', '3.4.1'
+gem 'devise', '~> 4.8', '>= 4.8.1'
+gem 'jquery-rails'
 gem 'minitest', group: :test
 gem 'minitest-reporters', group: :test
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
