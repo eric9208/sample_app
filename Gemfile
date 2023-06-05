@@ -1,7 +1,10 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+gem 'bootstrap-will_paginate', '1.0.0'
+gem 'faker'
 gem 'rails-controller-testing'
+gem 'will_paginate', '3.1.8'
 ruby '2.6.10'
 gem 'bootstrap-sass', '3.4.1'
 gem 'devise', '~> 4.8', '>= 4.8.1'
