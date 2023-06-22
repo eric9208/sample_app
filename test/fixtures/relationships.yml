@@ -1,0 +1,15 @@
+one:
+  follower: eric
+  followed: bob
+
+two:
+  follower: eric
+  followed: lana
+
+three:
+  follower: lana
+  followed: eric
+
+four:
+  follower: malory
+  followed: eric
